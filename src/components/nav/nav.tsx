@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Menu, X, Home, Info, Briefcase, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Menu, X, Home, FolderOpen, Award, Mail } from "lucide-react";
 import "./nav.css";
 
 const Navbar = () => {
@@ -16,24 +17,24 @@ const Navbar = () => {
       <nav className={`navbar ${isOpen ? "open" : ""}`}>
         <ul className="nav-links">
           <li>
-            <a href="#" className="nav-item" data-tooltip="Home">
+            <Link to="/" className="nav-item" data-tooltip="Home">
               <Home size={24} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="nav-item" data-tooltip="About">
-              <Info size={24} />
-            </a>
+            <Link to="/projects" className="nav-item" data-tooltip="Projects">
+              <FolderOpen size={24} />
+            </Link>
           </li>
           <li>
-            <a href="#" className="nav-item" data-tooltip="Services">
-              <Briefcase size={24} />
-            </a>
+            <Link to="/certificates" className="nav-item" data-tooltip="Certifications">
+              <Award size={24} />
+            </Link>
           </li>
           <li>
-            <a href="#" className="nav-item" data-tooltip="Contact">
+            <Link to="/contact" className="nav-item" data-tooltip="Contact">
               <Mail size={24} />
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

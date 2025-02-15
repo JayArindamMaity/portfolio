@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className={`navbar ${isOpen ? "open" : ""}`}>
         <ul className="nav-links">
           <li>
-            <Link to="/" className="nav-item" data-tooltip="Home">
+            <Link to="/portfolio" className="nav-item" data-tooltip="Home">
               <Home size={24} />
             </Link>
           </li>

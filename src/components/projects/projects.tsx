@@ -1,10 +1,11 @@
 import React from "react";
+import './projects.css'
 
 const Projects: React.FC = () => {
   return (
     <>
-    <div className="content">
-        <div className="title">
+    <div className="project-content">
+        <div className="project-title">
             this is the projects page
         </div>
     </div>

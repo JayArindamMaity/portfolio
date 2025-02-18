@@ -6,7 +6,7 @@ const Certificates: React.FC = () => {
     <>
     <div className="certificates-content">
         <div className="certificates-title">
-            This is the certificates page
+            My Certificates:
         </div>
     </div>
     </>

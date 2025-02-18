@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
     <>
     <div className="project-content">
         <div className="project-title">
-            this is the projects page
+            My Projects:
         </div>
     </div>
     </>

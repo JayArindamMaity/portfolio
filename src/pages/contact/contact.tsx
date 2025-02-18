@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
     <>
     <div className="contact-content">
         <div className="contact-title">
-          This is the contact page!
+          Contact Me:
         </div>
     </div>
     </>

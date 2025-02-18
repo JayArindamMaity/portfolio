@@ -12,9 +12,17 @@ const Contact: React.FC = () => {
           Hey! you wish to contact me or know more about me here are some of the ways/links to do so...
         </div>
         <div className="">
-          <ul>
-            <li>Instagram: </li>
-            <li>Twitter: </li>
+          <ul className="contact-list">
+            <li>
+              <a href="https://www.instagram.com/jayarindammaity" target="_blank" rel="noopener noreferrer" className="contact-links">
+                Instagram: www.instagram.com/jayarindammaity
+              </a>
+            </li>
+            <li>
+              <a href="https://www.x.com" target="_blank" rel="noopener noreferrer" className="contact-links">
+                Twitter:  
+              </a>
+            </li>
             <li>GitHub: </li>
             <li>Linkedin: </li>
             <li>Mail: </li>

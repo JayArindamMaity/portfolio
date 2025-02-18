@@ -8,3 +8,13 @@
 .contact-paragraph {
     font-size: 2.5vh;
 }
+
+.contact-links {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-list {
+    margin-top: 10px;
+    font-size: 2.5vh;
+}

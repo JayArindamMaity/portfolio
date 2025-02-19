@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
             </li>
             <li>GitHub: </li>
             <li>Linkedin: </li>
-            <li>Mail: </li>
+            <li>Mail: jayarindammaity08@gmail.com</li>
           </ul>
         </div>
     </div>
